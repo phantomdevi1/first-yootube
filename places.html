@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="pm.png" alt="Logo" width="70" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Любимые места</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/1011/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Плавание на байдарке</h5>
+              <p class="card-text">
+                Люблю кататься на байдарке, когда передо мной сидит красивая
+                девушка, а на фоне видны красоты озера
+              </p>
+              <a
+                href="https://picsum.photos/id/1011/1500"
+                target="_blanck"
+                class="btn btn-primary"
+                >Посмотреть фото</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/1019/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Море</h5>
+              <p class="card-text">
+                Море, красиво всегда. Во время шторма, конечно лучше не
+                находиться в нём, но перед штормом, оно особенно красиво
+              </p>
+              <a
+                href="https://picsum.photos/id/1019/1500"
+                target="_blanck"
+                class="btn btn-primary"
+                >Посмотреть фото</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/103/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Лежать на поле</h5>
+              <p class="card-text">
+                Поле, всегда прекрасно, особенно в солнечные дни. Можно прилечь
+                на травку и подумать обо всём
+              </p>
+              <a
+                href="https://picsum.photos/id/103/1500"
+                target="_blanck"
+                class="btn btn-primary"
+                >Посмотреть фото</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
